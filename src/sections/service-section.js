@@ -51,7 +51,7 @@ export default function ServiceSection() {
   };
   const [videoOpen, setVideoOpen] = useState(false);
   return (
-    <section sx={{ variant: 'section.services' }}>
+    <section sx={{ variant: 'section.coreFeature' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="thumbnail" />
